@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Lagoa</title>
+    <!-- Fonte Google Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho / Navbar -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M17 8h1a4 4 0 1 1 0 8h-1"></path>
+                    <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"></path>
+                    <line x1="6" y1="2" x2="6" y2="4"></line>
+                    <line x1="10" y1="2" x2="10" y2="4"></line>
+                    <line x1="14" y1="2" x2="14" y2="4"></line>
+                </svg>
+                <span>Café Lagoa</span>
+            </a>
+
+            <nav class="nav">
+                <a href="#" class="nav-link active">Início</a>
+                <a href="#catalogo" class="nav-link">Catálogo</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="location-tag">LAGOA DA CONCEIÇÃO · FLORIANÓPOLIS</span>
+                <h1 class="hero-title">Café coado, vista para a lagoa.</h1>
+                <p class="hero-description">
+                    Grãos de pequenos produtores do sul do Brasil, pães de fermentação natural e doces feitos todos os dias aqui na casa.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#catalogo" class="btn btn-primary">Ver cardápio</a>
+                    <a href="#contato" class="btn btn-outline">Fale com a gente</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="image-placeholder">
+                    Imagem: balcão do café com a lagoa ao fundo (1200 × 900)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Mais Pedidos (Fundo Cinza Claro) -->
+    <section class="popular-section" id="catalogo">
+        <div class="container">
+            <div class="section-header">
+                <div>
+                    <h2 class="section-title">Mais pedidos</h2>
+                    <p class="section-subtitle">Os favoritos de quem passa por aqui.</p>
+                </div>
+                <a href="#" class="link-more">Ver cardápio completo &rarr;</a>
+            </div>
+
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <article class="card">
+                    <div class="card-image-placeholder">
+                        Foto:Cappuccino da casa
+                    </div>
+                    <div class="card-body">
+                        <span class="category-badge">Bebidas</span>
+                        <h3 class="card-title">Cappuccino da casa</h3>
+                        <p class="card-text">Espresso, leite vaporizado e um toque de canela.</p>
+                        <p class="card-price">R$ 12,00</p>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card">
+                    <div class="card-image-placeholder">
+                        Foto:Pão de queijo recheado
+                    </div>
+                    <div class="card-body">
+                        <span class="category-badge">Salgados</span>
+                        <h3 class="card-title">Pão de queijo recheado</h3>
+                        <p class="card-text">Massa de polvilho com recheio de requeijão cremoso.</p>
+                        <p class="card-price">R$ 9,50</p>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card">
+                    <div class="card-image-placeholder">
+                        Foto:Torta de banana com canela
+                    </div>
+                    <div class="card-body">
+                        <span class="category-badge">Doces</span>
+                        <h3 class="card-title">Torta de banana com canela</h3>
+                        <p class="card-text">Massa crocante e banana caramelizada.</p>
+                        <p class="card-price">R$ 14,00</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Informações (Horário, Endereço, Telefone) -->
+    <section class="info-section" id="contato">
+        <div class="container info-grid">
+            <div class="info-item">
+                <div class="info-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </div>
+                <div>
+                    <h4 class="info-title">Horário</h4>
+                    <p class="info-text">Terça a domingo, das 7h às 19h</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                </div>
+                <div>
+                    <h4 class="info-title">Endereço</h4>
+                    <p class="info-text">[ENDEREÇO], Lagoa da Conceição</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <div class="info-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22
